@@ -1,6 +1,20 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Rust Live Training
 
-## References
+## Launch Codespaces
 
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+* rustc --version
+* An alternative is (Rust Up): `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+* hello world: `cargo new hello`
+
+```
+tree
+.
+├── hello
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+├── LICENSE
+├── Makefile
+└── README.md
+
+```
